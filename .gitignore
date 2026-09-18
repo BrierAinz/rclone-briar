@@ -1,0 +1,26 @@
+# rclone configuration and credentials
+rclone.conf
+.rclone.conf
+**/rclone.conf
+
+# OAuth / credential artifacts
+.env
+.env.*
+credentials*.json
+client_secret*.json
+oauth*.json
+token*.json
+*.pem
+*.key
+
+# Runtime output and logs
+logs/
+*.log
+*.tmp
+*.bak
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
