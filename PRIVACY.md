@@ -4,7 +4,7 @@
 
 ## Resumen
 
-`rclone-briar` es una aplicación de escritorio de uso estrictamente personal.
+`rclone-briar` es una configuración local de rclone de uso estrictamente personal.
 La utiliza únicamente su autor, para respaldar sus propios archivos en su
 propia cuenta de Google Drive.
 
@@ -13,7 +13,7 @@ persona.**
 
 ## Qué datos se utilizan
 
-La aplicación solicita acceso a Google Drive mediante OAuth 2.0, con el único
+La configuración usa OAuth 2.0 de Google Drive, con el único
 fin de leer y escribir archivos en la cuenta de Drive del propio usuario que
 concede la autorización.
 
@@ -36,12 +36,12 @@ Drive, gobernada por la
 Los archivos permanecen en Google Drive mientras el usuario lo decida. Puede
 eliminarlos en cualquier momento desde su propia cuenta.
 
-El acceso de la aplicación puede revocarse en cualquier momento desde
+El acceso OAuth puede revocarse en cualquier momento desde
 [la página de permisos de la cuenta de Google](https://myaccount.google.com/permissions).
 
 ## Menores
 
-La aplicación no está dirigida a menores y no recopila datos de ninguna
+Esta configuración no está dirigida a menores y no recopila datos de ninguna
 persona.
 
 ## Contacto
